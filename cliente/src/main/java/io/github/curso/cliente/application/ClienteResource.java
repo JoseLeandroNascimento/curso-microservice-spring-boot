@@ -23,11 +23,11 @@ public class ClienteResource {
     
     private final ClienteService service;
 
-    @GetMapping("")
+    @GetMapping
     public String status(){
 
         log.info("Obtendo o status do microservices de clientes");
-        
+
         return "ok";
     }
 
